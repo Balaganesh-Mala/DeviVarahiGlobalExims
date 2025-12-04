@@ -8,6 +8,7 @@ import TestimonialsSection from "./pages/Testimonials.jsx";
 import CertificationsSection from "./pages/Certificates.jsx";
 import Footer from "./components/layout/Footer.jsx";
 import ContactSection from "./pages/ContactSection.jsx";
+import WhatsappFloat from "./components/layout/WhatsappFloat.jsx";
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
       <CertificationsSection />
       <ContactSection/>
       <Footer />
+      <WhatsappFloat />
     </BrowserRouter>
   );
 }

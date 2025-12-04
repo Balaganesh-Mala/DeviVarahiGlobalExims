@@ -2,14 +2,18 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
+import basmatiImg from "../assets/images/BasmatiRice.jpg";
+import milletsImg from "../assets/images/millets.jpg";
+import turmericImg from "../assets/images/turmeric.jpg";
+import mushroomsImg from "../assets/images/mushrooms.jpg";
 import "swiper/css";
 
 export default function Home() {
   const images = [
-    "/carousel1.jpg",
-    "/carousel2.jpg",
-    "/carousel3.jpg",
-    "/carousel4.jpg"
+    `${basmatiImg}`,
+    `${milletsImg}`,
+    `${turmericImg}`,
+    `${mushroomsImg}`,
   ];
 
   return (
