@@ -7,7 +7,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="w-full fixed top-0 z-50 bg-white shadow-lg px-5 md:px-12 py-4 flex items-center justify-between">
+    <nav className="w-full fixed top-0 z-100 bg-white shadow-lg px-5 md:px-12 py-4 flex items-center justify-between">
 
       {/* Logo Image + Company Name */}
       <div className="flex items-center space-x-3">
